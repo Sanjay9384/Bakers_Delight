@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#about-us-page{
+    color: white;
+    top: 60px;
+    position: relative;
+    height: 91.4vh;
+    background-image: url(images/aboutBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+.About-head{
+text-align: center;
+    font-size: 40px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-img img{
+    width: 500px;
+    height: 500px;
+    /* border-radius: 50%; */
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.about-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abt-h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.abt-h1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.abt-address img,.abt-ph img{
+    width: 30px;
+    height: 30px;
+}
+
+.abt-address, .abt-ph,.abt-timing{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.abt-btn1{
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.abt-btn1 a{
+    color: rgb(85, 82, 82);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.abt-btn1:hover{
+    background-color: black;
+}
+
+.abt-btn1 a:hover{
+    color: white;
+}
+
+
+.abt-footer{
+    background-color: #f08632;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.abt-footer-img img{
+    position: relative;
+    left: 10px;
+    top: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.abt-footer-p p{
+    position: absolute;
+    right: 40%;
+}
+
+.abt-footer-p a{
+    color: black;
+    text-decoration: none;
+}

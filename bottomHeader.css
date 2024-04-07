@@ -1,0 +1,32 @@
+.bottom-header{
+    background-color: #f08632;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .bottom-header .items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  }
+
+  .bottom-header .list a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: flex;
+    font-weight: 600;
+    padding: 20px 35px 19px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background-color 1s;
+  }
+
+  .bottom-header .list a:hover{
+    background-color: black;
+  }

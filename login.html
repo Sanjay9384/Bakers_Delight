@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Bakers Delight Login</title>
+<link rel="stylesheet"  href="loginstyle.css">
+<link rel="icon" href="Assets/logos/mainlogo2.jpg">
+</head>
+<body>
+  <div class="hero">
+    <div class="form-box">
+      <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onclick="register()">Register</button>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/" target="_blank"><img src="Assets/images/facebook.webp"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="Assets/images/instagram.webp"></a>
+      <a href="https://mail.google.com/mail/u/0/" target="_blank"><img src="Assets/images/mail.webp"></a>
+      
+    </div>
+    <form id="login" class="input-group">
+    <input type="text" class="input-field" id="email" placeholder="User Id" >
+    <input type="password" class="input-field" id="password" placeholder="Enter Password" >
+    <input type="checkbox" class="chech-box"><span>Remember Password</span>
+    <button type="submit" class="submit-btn" onclick="func()">Log in</a></button>
+
+    </form>
+    <form id="register" class="input-group">
+    <input type="text" class="input-field" placeholder="User Id" required>
+    <input type="email" class="input-field" placeholder="Email Id" required>
+    <input type="text" class="input-field" placeholder="Enter Password" required>
+    <input type="checkbox" class="chech-box"><span>I agree to the terms & conditions</span>
+    <button type="submit" class="submit-btn">Register</button>
+
+    </form>
+    </div>
+    <footer>
+      <center>
+     <p class="rights"  onclick="alert('contact: SP_DEVLOPERS@gmail.com')">  &#169; All rights reserved & designed by <a href="#">SP developers</a> </p>
+     </center>
+    </footer>
+  </div>
+
+  <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+
+    }
+    function login(){
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0";
+
+    }
+
+
+    function func(){
+      var email = document.getElementById("email").value;
+      var password=document.getElementById("password").value;
+
+      if(email== "bakersdelight@gmail.com" && password=="bakersdelight123")
+      {
+          window.open('index.html');
+
+      }
+      else{
+        alert("Invalid Information");
+        return;
+      }
+
+    }
+
+
+  </script>
+
+
+  
+</body>
+</html>

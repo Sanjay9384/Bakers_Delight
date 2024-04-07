@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakers Delight Product Details</title>
+    <link rel="stylesheet" href="productView.css">
+    <link rel="stylesheet" href="bottomHeader.css">
+    <link rel="stylesheet" href="products.css">
+    <script src="https://kit.fontawesome.com/dc01a77f46.js"></script>
+    <script src="ProductsView.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+    <div class="bottom-header">
+        <ul class="items">
+          <li class="list"><a href="index.html">Home</a></li>
+          <li class="list"><a href="index.html#products-main">Cakes</a></li>
+          <li class="list"><a href="Aboutus.html">About</a></li>
+          <li class="list"><a href="Contact.html">Contact</a></li>
+          <li class="list"><a href="index.html#location">Location</a></li>
+          <li class="list"><a href="index.html#products-main">Order Now</a></li>
+          <li class="list"><a href="index.html#slider">GLIMPSE</a></li>
+        </ul>
+    
+      </div>
+
+      <!-- Products View -->
+    <div class="small-container single-product" onclick="updatePrice()">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/ChoclateCake/ChoclateCake1.webp" width="100%" id="ProductImg" alt="">
+                <div class="small-img-row">
+
+                    <div class="small-img-col">
+                        <img src="images/ChoclateCake/ChoclateCake1.webp" alt="" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/ChoclateCake/ChoclateCake2.webp" alt="" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/ChoclateCake/ChoclateCake3.webp" alt="" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/ChoclateCake/ChoclateCake4.webp" alt="" class="small-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p>Choclate Cake</p>
+                <h1>Choclate makes you fall by taste</h1>
+                <h4>Rs: 399.99</h4>
+                <select>
+                    <option>250g</option>
+                    <option>500g</option>
+                    <option>750g</option>
+                    <option>1kg</option>
+                    <option>1Piece</option>
+                </select>
+                <input type="number" min="1" max="1000" value="1">
+                <a href="" class="btn" onclick="alert('Contact +91-6383183XYZ for further details')">Add to Cart</a>
+                <h3>Product Details<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores commodi praesentium odio illum temporibus maiores adipisci perspiciatis aliquam quidem impedit natus, illo accusamus. Porro voluptatem totam recusandae consequuntur commodi quam.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Products -->
+
+    <div id="products-main">
+      <h2 class="products-head">RECOMMENDED PRODUCTS</h2>
+      <div class="products" id="products">
+  
+        <a href="ProductView.html" style="text-decoration: none; color: black;">
+        <div class="product1">
+          <img src="images/cake1.png" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3>
+          <p>Choclate cake is wonderful cake and with fantastic taste</p>
+  
+          <div class="product1-rating" style="height: auto;">
+            <span class="product1-actual-rating">4.9</span>
+            <span class="starViewSection mx-0.5">
+              <img src="Assets/images/rating_Star.svg" alt="" width="12" height="12" loading="lazy">
+            </span>
+            <span class="product1-reviews">(30 Reviews)</span></div>
+  
+          <button class="product1-btn">Order Now</button>
+          
+        </div>
+      </a>
+      
+      <a href="ProductView.html" style="text-decoration: none; color: black;">
+        <div class="product1">
+          <img src="images/cake2.jpg" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3>
+          <p>Choclate cake is wonderful cake and with fantastic taste</p>
+  
+          <div class="product1-rating" style="height: auto;">
+            <span class="product1-actual-rating">4.5</span>
+            <span class="starViewSection mx-0.5">
+              <img src="Assets/images/rating_Star.svg" alt="" width="12" height="12" loading="lazy">
+            </span>
+            <span class="product1-reviews">(15 Reviews)</span></div>
+            
+          <button class="product1-btn">Order Now</button>
+          
+        </div>
+      </a>
+  
+      <a href="ProductView.html" style="text-decoration: none; color: black;">
+        <div class="product1">
+          <img src="images/cake3.jpg" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3>
+          <p>Choclate cake is wonderful cake and with fantastic taste</p>
+  
+          <div class="product1-rating" style="height: auto;">
+            <span class="product1-actual-rating">4.7</span>
+            <span class="starViewSection mx-0.5">
+              <img src="Assets/images/rating_Star.svg" alt="" width="12" height="12" loading="lazy">
+            </span>
+            <span class="product1-reviews">(22 Reviews)</span></div>
+  
+          <button class="product1-btn" >Order Now</button>
+          
+        </div>
+        </a>
+  
+  
+        <a href="ProductView.html" style="text-decoration: none; color: black;">
+        <div class="product1">
+          <img src="images/cake4.jpg" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3><p>Choclate cake is wonderful cake and with fantastic taste</p>
+          <button class="product1-btn" >Order Now</button>
+          
+        </div>
+        </a>
+  
+        <a href="ProductView.html" style="text-decoration: none; color: black;">
+       <div class="product1">
+          <img src="images/cake5.jpg" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3><p>Choclate cake is wonderful cake and with fantastic taste</p>
+          <button class="product1-btn">Order Now</button>
+  
+        </div>
+        </a>
+
+        <a href="ProductView.html" style="text-decoration: none; color: black;">
+        <div class="product1">
+          <img src="images/cake1.png" alt="Cake product" class="product1-img">
+          <h3 class="product1-title">CHOCLATE CAKE</h3>
+          <p>Choclate cake is wonderful cake and with fantastic taste</p>
+          <button class="product1-btn" >Order Now</button>
+          
+        </div>
+        </a>
+  
+  
+  
+      </div>
+      </div>
+
+      <footer class="abt-footer" >
+        <div class="abt-footer-img">
+        <img src="Assets/logos/mainlogo2.jpg">
+      </div>
+
+        <div class="abt-footer-p"><p>All &copy; Rights Reserved By <a href="#" onclick="alert('SP_DEV@gmail.com')">SP_DEVLOPERS</a></p></div>
+        
+         </footer>
+
+         <script>
+          var ProductImg = document.getElementById("ProductImg");
+var SmallImg = document.getElementsByClassName("small-img");
+
+SmallImg[0].onclick = function(){
+    ProductImg.src = SmallImg[0].src;
+}
+
+SmallImg[1].onclick = function(){
+    ProductImg.src = SmallImg[1].src;
+}
+
+SmallImg[2].onclick = function(){
+    ProductImg.src = SmallImg[2].src;
+}
+
+SmallImg[3].onclick = function(){
+    ProductImg.src = SmallImg[3].src;
+}
+
+         </script>
+</body>
+</html>
